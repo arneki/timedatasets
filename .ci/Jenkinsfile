@@ -1,0 +1,9 @@
+@Library("jenlib") _
+
+Map<String, Object> pipelineOptions = [
+		projects           : ["timedatasets"],
+		container          : [app: "dls-core"],
+		notificationChannel: "#softies"
+]
+
+wafDefaultPipeline(pipelineOptions)

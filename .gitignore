@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution
+build/
+lib/
+bin/
+
+# Coverage reports
+.coverage
+.coverage.*
+coverage.xml
+
+# Sphinx documentation
+docs/_build/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

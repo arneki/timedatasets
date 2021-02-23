@@ -1,0 +1,4 @@
+numpy
+scipy
+matplotlib
+wfdb>=2.2.0
